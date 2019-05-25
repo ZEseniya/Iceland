@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Iceland</title>
+        <script src="jquery.min.js.Без названия"></script>
+        <script src="tabs.js.Без названия"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="form.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>    
+    </head>
+    <body>
+
+        <header>
+            <div class="row">
+                <div class="logo col-10"><a href="main.html"><img src="icons/dolphin.svg"></a></div>
+                <div class="icons col-2">
+                    <a href="form.html"><img src="icons/whale.svg"></a>
+                    <a href="info.html"><img src="icons/mountain.svg" class="img"></a>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="comments">
+                <div class="col title"><h3>Отзывы</h3></div>
+                
+                <div class="row comment">
+                    <div class="col-4 img"><img src="images/photo/img22.jpg"></div>
+                    <div class="col-6 txt"> <h5>Андрей</h5> Я пробыл в исландии всего 4 дня, но ощущений получил - массу! <br> Самое лучшее, что запомнилось  —  теплые источники, температура  <br> в которых достигает 38 градусов, столько же, сколько в вашей ванной, <br> при этом на открытом воздухе и все в снегу, ощущения незабываемые.</div>
+                </div>
+                
+                <div class="row comment">
+                    <div class="col-4 img"><img src="images/photo/img23.jpg"></div>
+                    <div class="col-6 txt"> <h5>Марина</h5> Исландия — шикарная страна. Побывала я там в конце весны, <br> когда уже не так холодно. Хочу поделиться по большей мере<br> впечатления о природе, чем о музеях и самой столице Рейкьявик.<br> Если вы вдруг устанете от прогулок, то для этих случаев есть<br> термальные бассейны, в которых можно отдхнуть душой и телом.</div>
+                </div>
+                
+                <div class="row comment">
+                    <div class="col-4 img"><img src="images/photo/img24.jpg"></div>
+                    <div class="col-6 txt"> <h5>Ирина</h5> Прекрасная страна чистого воздуха, кристальной ледниковой воды, <br> пейзажей, непохожих один на другой. Страна, где фантастические<br> вулканические картины, сменяются гигантскими водопадами, а за<br> водопадами открываются бескрайние изумрудные луга с пасущимися<br> там знаменитыми исландскими овцами.</div>
+                </div>
+            </div>
+
+            <div class="form">
+                <div class="title"><h3>Форма ввода данных</h3></div>
+
+                <div class="col-10 tabs">
+
+                    <ul class="tabs__caption">
+                        <li class="active">Авиабилеты</li>
+                        <li class="">Отели</li>
+                        <li class="">Автобусы</li>
+                    </ul>
+                
+                    <div class="tabs__content active">
+                        <div class="row">
+                            <div class="col-6">
+                                <input id="x" value="Откуда" disabled></input>
+                                <div onclick="document.getElementById('x').value='Москва'">Москва</div>
+                                <div onclick="document.getElementById('x').value='Минск'">Минск</div>
+                            </div>
+                            <div class="col-6">
+                                <input id="y" value="Куда" disabled>
+                                <div onclick="document.getElementById('y').value='Кеблавик'">Кеблавик</div>
+                                <div onclick="document.getElementById('y').value='Рейкьявик'">Рейкьявик</div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                                <div class="col-6">
+                                </div>
+                                <div class="col-6">
+                                </div>
+                            </div>
+                    </div>
+                
+                    <div class="tabs__content">
+                        <img src="" alt="">
+                    </div>
+                
+                    <div class="tabs__content"></div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

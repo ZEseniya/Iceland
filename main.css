@@ -1,0 +1,56 @@
+body {
+  background-image: url(images/photo/bk.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+body header {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+body header .logo img {
+  margin-left: 5%;
+  width: 5%;
+}
+body header .icons img {
+  margin-right: 25%;
+  float: right;
+  width: 28%;
+}
+body header .icons .img {
+  margin-top: 2.5%;
+  width: 22%;
+}
+body main {
+  margin-bottom: 21%;
+}
+body main .col-lg-3 {
+  background-color: rgba(255, 255, 255, 0.4);
+  margin-top: 8%;
+  margin-left: 15%;
+}
+body main .col-lg-3 .title {
+  margin: 5%;
+  font-size: 300%;
+}
+body main .col-lg-3 .txt {
+  margin-left: 5%;
+  margin-bottom: 5%;
+  font-size: 200%;
+}
+body main .col-lg-3 a {
+  color: black;
+  opacity: 0.75;
+}
+body footer {
+  background-color: rgba(255, 255, 255, 0.4);
+  padding-top: 1%;
+}
+body footer .icon {
+  margin: 0% 0% 1% 5%;
+  width: 2.5%;
+}
+body footer .txt {
+  margin-left: 70%;
+  font-size: 120%;
+  margin-top: 0.5%;
+}

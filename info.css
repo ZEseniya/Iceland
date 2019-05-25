@@ -1,0 +1,244 @@
+body {
+  background-color: #203846;
+}
+body header {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+body header .logo img {
+  margin-left: 5%;
+  width: 5%;
+}
+body header .icons img {
+  margin-right: 25%;
+  float: right;
+  width: 28%;
+}
+body header .icons .img {
+  margin-top: 2.5%;
+  width: 22%;
+}
+body main {
+  margin-bottom: 5%;
+}
+body main .about-country .title {
+  margin: 5% 0%;
+  background-color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  padding: 1%;
+}
+body main .about-country .first-block {
+  padding: 0% 5%;
+  margin-bottom: 5%;
+}
+body main .about-country .first-block .txt {
+  background-color: rgba(255, 255, 255, 0.4);
+  font-size: 120%;
+  padding: 3%;
+  margin-right: 5%;
+  color: black;
+}
+body main .about-country .first-block .img .row .col {
+  margin-bottom: 5%;
+}
+body main .about-country .first-block .img .row .col-8 {
+  margin-right: 6%;
+}
+body main .about-country .second-block {
+  padding: 0% 5%;
+}
+body main .about-country .second-block .txt {
+  background-color: rgba(255, 255, 255, 0.4);
+  font-size: 125%;
+  padding: 3%;
+  color: black;
+}
+body main .about-country .second-block .img {
+  margin-right: 5%;
+}
+body main .about-country .second-block .img .row .col-6 {
+  margin-right: 0.5%;
+  margin-bottom: 5%;
+}
+body main .about-tour .title {
+  margin: 5% 0%;
+  background-color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  padding: 1%;
+}
+body main .about-tour .about {
+  padding: 0% 10%;
+}
+body main .about-tour .about .day1 #hider {
+  display: none;
+}
+body main .about-tour .about .day1 #hider:checked + .content {
+  display: block;
+}
+body main .about-tour .about .day1 #clickme {
+  color: white;
+  cursor: pointer;
+}
+body main .about-tour .about .day1 .content {
+  display: none;
+}
+body main .about-tour .about .day1 .content .txt {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: black;
+  padding: 1% 3%;
+  margin-bottom: 5%;
+}
+body main .about-tour .about .day1 .content img {
+  margin-bottom: 5%;
+  width: 100%;
+}
+body main .about-tour .about .day2 #hider2 {
+  display: none;
+}
+body main .about-tour .about .day2 #hider2:checked + .content2 {
+  display: block;
+}
+body main .about-tour .about .day2 #clickme {
+  color: white;
+  cursor: pointer;
+}
+body main .about-tour .about .day2 .content2 {
+  display: none;
+}
+body main .about-tour .about .day2 .content2 .txt {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: black;
+  margin-bottom: 5%;
+  padding: 1% 3%;
+}
+body main .about-tour .about .day2 .content2 img {
+  margin-bottom: 5%;
+  width: 100%;
+}
+body main .about-tour .about .day3 #hider3 {
+  display: none;
+}
+body main .about-tour .about .day3 #hider3:checked + .content3 {
+  display: block;
+}
+body main .about-tour .about .day3 #clickme {
+  color: white;
+  cursor: pointer;
+}
+body main .about-tour .about .day3 .content3 {
+  display: none;
+}
+body main .about-tour .about .day3 .content3 .txt {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: black;
+  margin-bottom: 5%;
+  padding: 1% 3%;
+}
+body main .about-tour .about .day3 .content3 img {
+  margin-bottom: 5%;
+  width: 100%;
+}
+body main .about-tour .about .day4 #hider4 {
+  display: none;
+}
+body main .about-tour .about .day4 #hider4:checked + .content4 {
+  display: block;
+}
+body main .about-tour .about .day4 #clickme {
+  color: white;
+  cursor: pointer;
+}
+body main .about-tour .about .day4 .content4 {
+  display: none;
+}
+body main .about-tour .about .day4 .content4 .txt {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: black;
+  margin-bottom: 5%;
+  padding: 1% 3%;
+}
+body main .about-tour .about .day4 .content4 img {
+  margin-bottom: 5%;
+  width: 100%;
+}
+body main .about-tour .about .day5 #hider5 {
+  display: none;
+}
+body main .about-tour .about .day5 #hider5:checked + .content5 {
+  display: block;
+}
+body main .about-tour .about .day5 #clickme {
+  color: white;
+  cursor: pointer;
+}
+body main .about-tour .about .day5 .content5 {
+  display: none;
+}
+body main .about-tour .about .day5 .content5 .txt {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: black;
+  margin-bottom: 5%;
+  padding: 1% 3%;
+}
+body main .about-tour .about .day5 .content5 img {
+  margin-bottom: 5%;
+  width: 100%;
+}
+body main .about-tour .about .day6 #hider6 {
+  display: none;
+}
+body main .about-tour .about .day6 #hider6:checked + .content6 {
+  display: block;
+}
+body main .about-tour .about .day6 #clickme {
+  color: white;
+  cursor: pointer;
+}
+body main .about-tour .about .day6 .content6 {
+  display: none;
+}
+body main .about-tour .about .day6 .content6 .txt {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: black;
+  margin-bottom: 5%;
+  padding: 1% 3%;
+}
+body main .about-tour .about .day6 .content6 img {
+  margin-bottom: 5%;
+  width: 100%;
+}
+body main .about-tour .about .day7 #hider7 {
+  display: none;
+}
+body main .about-tour .about .day7 #hider7:checked + .content7 {
+  display: block;
+}
+body main .about-tour .about .day7 #clickme {
+  color: white;
+  cursor: pointer;
+}
+body main .about-tour .about .day7 .content7 {
+  display: none;
+}
+body main .about-tour .about .day7 .content7 .txt {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: black;
+  margin-bottom: 5%;
+  padding: 1% 3%;
+}
+body main .about-tour .about .day7 .content7 img {
+  margin-bottom: 5%;
+  width: 100%;
+}
+body footer {
+  background-color: rgba(255, 255, 255, 0.4);
+  padding-top: 1%;
+}
+body footer .icon {
+  margin: 0% 0% 1% 5%;
+  width: 2.5%;
+}
+body footer .txt {
+  margin-left: 70%;
+  font-size: 120%;
+  margin-top: 0.5%;
+}
